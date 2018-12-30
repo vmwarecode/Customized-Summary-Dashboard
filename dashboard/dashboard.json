@@ -1,0 +1,454 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1546165696137,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "656d483d-1318-454b-b79b-245e50955489",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "tkopton-Summary Customized Sample",
+      "rank": 87,
+      "shared": false,
+      "temporary": false,
+      "userId": "3c6e818d-c6e8-4f92-8cec-5cbeb54c56cc",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "e9267907-9f9e-40ca-b208-433a47788d74",
+            "widgetIdReceiver": "2a53c07d-5e11-45d2-b698-a5b3e7e33a59"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "e9267907-9f9e-40ca-b208-433a47788d74",
+            "widgetIdReceiver": "ae50040f-488d-4560-b292-5d08a18b4c71"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "e9267907-9f9e-40ca-b208-433a47788d74",
+            "widgetIdReceiver": "112feeea-797b-479f-808d-61afb240cd9c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "e9267907-9f9e-40ca-b208-433a47788d74",
+            "widgetIdReceiver": "f4f59c59-869b-4a70-a34b-58e59f0261c6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "f4f59c59-869b-4a70-a34b-58e59f0261c6",
+            "widgetIdReceiver": "0d1b5126-4c90-4aec-ab74-0e505a7b1912"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "e9267907-9f9e-40ca-b208-433a47788d74",
+            "widgetIdReceiver": "b189534e-c35b-4e4c-942d-5cee1298b8bf"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "title": "About Me",
+               "visualTheme": 1
+            },
+            "gridsterCoords": {
+               "h": 12,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 666,
+            "id": "2a53c07d-5e11-45d2-b698-a5b3e7e33a59",
+            "title": "About Me",
+            "type": "PropertyList"
+         },
+         {
+            "collapsed": false,
+            "config": {"visualTheme": 1},
+            "gridsterCoords": {
+               "h": 15,
+               "w": 8,
+               "x": 1,
+               "y": 6
+            },
+            "height": 837,
+            "id": "c1561bf5-8371-4141-8fa3-9365377d8bc2",
+            "states": [
+               {
+                  "key": "permSelectedResourceKind_widget_656d483d-1318-454b-b79b-245e50955489_c1561bf5-8371-4141-8fa3-9365377d8bc2",
+                  "value": "s%3A002006VMWAREClusterComputeResource"
+               },
+               {
+                  "key": "permSpliterPosition_widget_656d483d-1318-454b-b79b-245e50955489_c1561bf5-8371-4141-8fa3-9365377d8bc2",
+                  "value": "n%3A215"
+               },
+               {
+                  "key": "permSelectedResource_widget_656d483d-1318-454b-b79b-245e50955489_c1561bf5-8371-4141-8fa3-9365377d8bc2",
+                  "value": "s%3A125aeedb-e952-4347-9760-224786746606"
+               }
+            ],
+            "title": "Recommended Actions",
+            "type": "RecommendedActions"
+         },
+         {
+            "collapsed": true,
+            "config": {
+               "title": "What does my week look like?",
+               "visualTheme": 1
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 4,
+               "x": 9,
+               "y": 21
+            },
+            "height": 314,
+            "id": "112feeea-797b-479f-808d-61afb240cd9c",
+            "title": "What does my week look like?",
+            "type": "IntSummaryStress"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "endColor": "FF0000",
+                        "maxValue": "15",
+                        "middleColor": "FFCC00",
+                        "minValue": "0",
+                        "startColor": "00FF00"
+                     },
+                     "colorBy": {
+                        "metricKey": "cpu|capacity_contentionPct",
+                        "value": "CPU|CPU Contention (%)"
+                     },
+                     "groupBy": {
+                        "id": "004null002006VMWAREClusterComputeResource",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Cluster Compute Resource",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "id": "extModel9160-1",
+                     "mode": {"mode": false},
+                     "name": "Size by CPU Demand (%), Color by CPU Contention (%)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:2_::_",
+                     "sizeBy": {
+                        "metricKey": "cpu|demandPct",
+                        "value": "CPU|Demand (%)"
+                     },
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREHostSystem",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:1_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "endColor": "FF0000",
+                        "maxValue": "10",
+                        "middleColor": "FFCC00",
+                        "minValue": "0",
+                        "startColor": "00FF00"
+                     },
+                     "colorBy": {
+                        "metricKey": "mem|host_contentionPct",
+                        "value": "Memory|Contention (%)"
+                     },
+                     "groupBy": {
+                        "id": "004null002006VMWAREClusterComputeResource",
+                        "originalText": "Cluster Compute Resource",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Cluster Compute Resource",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "id": "extModel8959-2",
+                     "mode": {"mode": false},
+                     "name": "Size by Memory Demand (%), Color by Memory Contention (%)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:2_::_",
+                     "sizeBy": {
+                        "metricKey": "mem|object.demand.percent",
+                        "value": "Memory|Effective Demand (%)"
+                     },
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREHostSystem",
+                        "originalText": "Host System",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:1_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "endColor": "FF0000",
+                        "maxValue": "30",
+                        "middleColor": "FFCC00",
+                        "minValue": "0",
+                        "startColor": "00FF00"
+                     },
+                     "colorBy": {
+                        "metricKey": "datastore:Aggregate of all instances|totalLatency_average",
+                        "value": "Datastore I/O:Aggregate of all instances|Disk Command Latency (ms)"
+                     },
+                     "groupBy": {
+                        "id": "004null002006VMWAREClusterComputeResource",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Cluster Compute Resource",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "mode": {"mode": false},
+                     "name": "Size by IO Requests, Color by Disk Latency (ms)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:2_::_",
+                     "sizeBy": {
+                        "metricKey": "datastore|demand_oio",
+                        "value": "Datastore I/O|Outstanding IO requests (OIOs)"
+                     },
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREHostSystem",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:1_::_"
+                     }
+                  }
+               ],
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "Neighbors On Selected Parent Host or Datastore by CPU, Memory, Disk IO",
+               "value": 2
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 6,
+               "x": 3,
+               "y": 21
+            },
+            "height": 438,
+            "id": "0d1b5126-4c90-4aec-ab74-0e505a7b1912",
+            "states": [{
+               "key": "perm_HeatMap_widget_656d483d-1318-454b-b79b-245e50955489_0d1b5126-4c90-4aec-ab74-0e505a7b1912",
+               "value": "o%3A"
+            }],
+            "title": "Neighbors On Selected Parent Host or Datastore by CPU, Memory, Disk IO",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoZoom": {"autoSize": false},
+               "nodeSize": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceName": "",
+               "selectFirstRow": false,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": {
+                  "path": [
+                     "/source/kind/kind:resourceKind:id:1_::_",
+                     "/source/kind/kind:resourceKind:id:3_::_"
+                  ],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": [
+                        "resourceKind:id:1_::_",
+                        "resourceKind:id:3_::_"
+                     ],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Select Parent Host Or Datastore"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 2,
+               "x": 1,
+               "y": 21
+            },
+            "height": 438,
+            "id": "f4f59c59-869b-4a70-a34b-58e59f0261c6",
+            "states": [{
+               "key": "permResourceRelationship_widget_656d483d-1318-454b-b79b-245e50955489_f4f59c59-869b-4a70-a34b-58e59f0261c6",
+               "value": "o%3A"
+            }],
+            "title": "Select Parent Host Or Datastore",
+            "type": "ResourceRelationship"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "columnSequence": {"columnSequence": "graphFirst"},
+               "resInteractionMode": "VM-Capacity",
+               "selfProvider": {"selfProvider": false},
+               "title": "Capacity"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 9,
+               "y": 22
+            },
+            "height": 381,
+            "id": "b189534e-c35b-4e4c-942d-5cee1298b8bf",
+            "states": [{
+               "key": "permDateRange_widget_656d483d-1318-454b-b79b-245e50955489_b189534e-c35b-4e4c-942d-5cee1298b8bf",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "Capacity",
+            "type": "SparklineChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "columnSequence": {"columnSequence": "graphFirst"},
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "my_VM-Performance",
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showResourceName": {"showObjectName": false},
+               "title": "Performance"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 9,
+               "y": 13
+            },
+            "height": 438,
+            "id": "ae50040f-488d-4560-b292-5d08a18b4c71",
+            "states": [{
+               "key": "permDateRange_widget_656d483d-1318-454b-b79b-245e50955489_ae50040f-488d-4560-b292-5d08a18b4c71",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "Performance",
+            "type": "SparklineChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": true},
+               "tagFilter": {
+                  "path": [
+                     "/source/kind/kind:resourceKind:id:0_::_",
+                     "/source/kind/kind:resourceKind:id:3_::_",
+                     "/source/kind/kind:resourceKind:id:1_::_",
+                     "/source/kind/kind:resourceKind:id:2_::_"
+                  ],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": [
+                        "resourceKind:id:0_::_",
+                        "resourceKind:id:3_::_",
+                        "resourceKind:id:1_::_",
+                        "resourceKind:id:2_::_"
+                     ],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Select Object (sample limited to clusters, hosts, VMs and datastores)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 8,
+               "x": 1,
+               "y": 1
+            },
+            "height": 267,
+            "id": "e9267907-9f9e-40ca-b208-433a47788d74",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_656d483d-1318-454b-b79b-245e50955489_e9267907-9f9e-40ca-b208-433a47788d74",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_656d483d-1318-454b-b79b-245e50955489_e9267907-9f9e-40ca-b208-433a47788d74",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "Select Object (sample limited to clusters, hosts, VMs and datastores)",
+            "type": "ResourceList"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "Datastore"
+      }
+   ]},
+   "uuid": "bd1f47e8-363f-471c-b1fe-0a927d64d595"
+}
